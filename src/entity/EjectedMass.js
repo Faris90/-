@@ -2,7 +2,7 @@ var Cell = require('./Cell');
 
 function Virus() {
     Cell.apply(this, Array.prototype.slice.call(arguments));
-    this.mass = Math.floor(Math.random() * 1000) + 16;
+    this.mass = 500;
     this.cellType = 1;
 }
 
