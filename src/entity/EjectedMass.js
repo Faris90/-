@@ -3,7 +3,7 @@ var Cell = require('./Cell');
 function Virus() {
     Cell.apply(this, Array.prototype.slice.call(arguments));
     this.mass = 500;
-    this.cellType = 1;
+    this.cellType = 2;
 }
 
 module.exports = Virus;
